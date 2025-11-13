@@ -1,0 +1,17 @@
+.callout {border-radius:20px;
+background-color:#cccccc;
+text-align:center;
+width: 98%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p {
+    font-family: 'Bitter', serif;
+  }
+
+  h1, h2, h3, h5 {
+    font-family: 'Bitter', serif;
+  }
