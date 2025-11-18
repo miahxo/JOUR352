@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    height: 450px;
+    background-image: url('images/duncan_3.jpg');
+    background-size: cover;
+    background-position: 50% -130%;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Playfair Display', sans-serif;
+}
