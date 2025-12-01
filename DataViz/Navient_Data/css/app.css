@@ -1,0 +1,21 @@
+h1, h2, p{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+hr {
+  border-bottom: 5px solid lightblue; 
+}
+
+.italic {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: italic;
+}
