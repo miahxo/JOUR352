@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p {
 @media (max-width: 500px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr) !important;
-    padding: 4px;
-    gap: 4px;
+    padding: 4px !important;
+    gap: 4px important!;
   }
 }
