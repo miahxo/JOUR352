@@ -65,18 +65,20 @@ h1,h2,h3,h4,h5,h6,p {
   object-fit: cover !important;
 }
 
-/* ===== MOBILE RESPONSIVENESS ===== */
-
-/* Tablet */
-@media (max-width: 900px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Phone */
 @media (max-width: 500px) {
   .gallery {
     grid-template-columns: 1fr;
+    padding: 5px;     /* reduce side spacing */
+    gap: 5px;         /* smaller gaps */
+  }
+
+  .gallery-item {
+    height: auto;     /* remove fixed height */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;     /* let image expand naturally */
+    object-fit: contain;
   }
 }
