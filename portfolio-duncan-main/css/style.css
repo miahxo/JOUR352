@@ -65,12 +65,12 @@ h1,h2,h3,h4,h5,h6,p {
   object-fit: cover !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
 
   .gallery {
     grid-template-columns: repeat(2, 1fr) !important;
-    padding: 2px !important;
-    gap: 2px !important;
+    padding: 4px !important;
+    gap: 4px !important;
   }
 
   .gallery-item {
