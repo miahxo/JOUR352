@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6,p {
   object-fit: cover !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
 
   .gallery {
     grid-template-columns: repeat(2, 1fr) !important;
