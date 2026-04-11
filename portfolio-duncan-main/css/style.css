@@ -64,3 +64,19 @@ h1,h2,h3,h4,h5,h6,p {
   height: 220px !important;
   object-fit: cover !important;
 }
+
+/* ===== MOBILE RESPONSIVENESS ===== */
+
+/* Tablet */
+@media (max-width: 900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Phone */
+@media (max-width: 500px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
