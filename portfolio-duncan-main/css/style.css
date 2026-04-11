@@ -69,12 +69,12 @@ h1,h2,h3,h4,h5,h6,p {
 
   .gallery {
     grid-template-columns: repeat(2, 1fr) !important;
-    padding: 10px !important;
-    gap: 10px !important;
+    padding: 20px !important;
+    gap: 20px !important;
   }
 
   .gallery-item {
-    height: 100px !important;
+    height: 160px !important;
   }
 
   .gallery-item img {
