@@ -69,8 +69,8 @@ h1,h2,h3,h4,h5,h6,p {
 
   .gallery {
     grid-template-columns: repeat(2, 1fr) !important;
-    padding: 4px !important;
-    gap: 4px !important;
+    padding: 6px !important;
+    gap: 6px !important;
   }
 
   .gallery-item {
